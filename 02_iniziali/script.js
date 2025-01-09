@@ -4,9 +4,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function takeInitials(names) {
+    return names.map(names => names[0]);
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
+const initials = takeInitials(names);
+console.log(initials);
+
 
 
 
